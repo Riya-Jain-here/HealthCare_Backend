@@ -33,6 +33,7 @@ Features:-
 ✅Validation and error handling included
 
 Tech Stack:-
+
 ✅Backend: Django, Django REST Framework
 
 ✅Database: PostgreSQL
