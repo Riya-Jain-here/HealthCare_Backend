@@ -5,24 +5,40 @@ A Django + Django REST Framework (DRF) backend for managing patients, doctors, a
 Features:-
 
 ✅User Authentication
+
 ✅Register new users
+
 ✅Login and obtain JWT tokens
+
 ✅Patient Management
+
 ✅Add, view, update, and delete patients
+
 ✅Patients are linked to the authenticated user
+
 ✅Doctor Management
+
 ✅Add, view, update, and delete doctors
+
 ✅Patient-Doctor Mapping
+
 ✅Assign doctors to patients
+
 ✅Retrieve and remove doctor assignments
+
 ✅Secure APIs
+
 ✅JWT authentication protects sensitive endpoints
+
 ✅Validation and error handling included
 
 Tech Stack:-
 ✅Backend: Django, Django REST Framework
+
 ✅Database: PostgreSQL
+
 ✅Authentication: JWT (via djangorestframework-simplejwt)
+
 ✅Environment variables: .env file for sensitive data (e.g., DB password)
 
 Setup Instructions:-
