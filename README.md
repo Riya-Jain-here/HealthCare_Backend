@@ -53,8 +53,10 @@ Create a virtual environment~
 
 ->python -m venv .venv
 
-->source .venv/Scripts/activate   -Windows
+->source .venv/Scripts/activate    -Windows
+
  OR
+ 
 source .venv/bin/activate         -Linux/Mac
 
 Install required packages~
@@ -80,7 +82,9 @@ DB_HOST=localhost
 DB_PORT=5432
 
 Apply migrations~
+
 ->python manage.py makemigrations
+
 ->python manage.py migrate
 
 Create a superuser~
@@ -141,6 +145,8 @@ Note: In postman, include JWT token in Authorization header as:
 
 -Authorization: Bearer <your-access-token> 
 
-Testing:
+Testing:-
+
 Use Postman to test all endpoints.
+
 Verify user, patient, doctor, and mapping data in PostgreSQL via pgAdmin 4.
