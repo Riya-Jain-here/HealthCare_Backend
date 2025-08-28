@@ -1,4 +1,4 @@
-# HEALTHCARE BACKEND System
+# HEALTHCARE BACKEND SYSTEM
 
 A Django + Django REST Framework (DRF) backend for managing patients, doctors, and appointments. Users can register, log in, and manage patient-doctor records securely. Data is stored in PostgreSQL, and JWT is used for authentication.
 
